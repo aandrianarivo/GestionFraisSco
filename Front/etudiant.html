@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+ 
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/demo.css">
+  <title>Etudiant</title>
+</head>
+<body>
+    <div class="container-fluid header">
+        <div class="container">
+          <a href="#"class="Logo">GESTION FRAIS DE SCOLARITE EMIT</a>
+          <nav class="menu">
+            <a href="index.html">Accueil</a>
+            <a href="etudiant.html">Etudiant</a>
+            <a href="enregistrement.html">Enregistrement</a>
+          </nav>
+          
+        </div>
+
+  </div>
+  <div class="container">
+    <h2 class="mt-5 md-5">Ajouter Etudiant</h2>
+    <div class="md-5">
+      <div class="row">
+        <div class="form-group col-md-6 mb-3">
+          <label for="id">Id</label>
+          <input type="number" name="id" class="form-control" id="id" placeholder="Entrer ID" hidden>
+        </div>
+        <div class="form-group col-md-6 mb-3">
+          <label for="nom">Nom</label>
+          <input type="text" name="nom" class="form-control" id="nom" placeholder="Entrer nom">
+        </div>
+        <div class="form-group col-md-6 mb-3">
+          <label for="prenom">Prenom</label>
+          <input type="text" name="prenom" class="form-control" id="prenom" placeholder="Entrer prenom">
+        </div>
+        <div class="form-group col-md-6 mb-3">
+          <label for="email">Email</label>
+          <input type="email" name="email" class="form-control" id="email" placeholder="Entrer eMail">
+        </div>
+        <div class="form-group col-md-6 mb-3">
+          <label for="adresse">Adresse</label>
+          <input type="text" name="adresse" class="form-control" id="adresse" placeholder="Entrer adresse">
+        </div>
+        <div class="form-group col-md-6 mb-3">
+          <label for="tel">Telephone</label>
+          <input type="tel" name="tel" class="form-control" id="tel" placeholder="Entrer Tel">
+        </div>
+        <div class="form-group col-md-6 mb-3">
+          <label for="niveau">Niveau</label>
+          <input type="text" name="niveau" class="form-control" id="niveau" placeholder="Entrer niveau">
+        </div>
+        <div class="form-group col-md-6 mb-3">
+          <label for="parcours">Parcours</label>
+          <input type="text" name="parcours" class="form-control" id="parcours" placeholder="Entrer parcours">
+        </div>
+        <div class="form-group col-md-6 mb-3">
+          <label for="mention">Mention</label>
+          <input type="text" name="mention" class="form-control" id="mention" placeholder="Entrer mention">
+        </div>
+        
+        <div class="col-lg-12 mt-5">
+          <button class="btn btn-success" id="Submit" onclick="addData()">Add data</button>
+          <button class="btn btn-primary" id="Update" >Update</button>
+
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="row mt-5 ">
+      <div class="col-12">
+        <table class="table table-borderless" id="crudTable">
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Nom</th>
+              <th>Prenom</th>
+              <th>Email</th>
+              <th>Telephone</th>
+              <th>Status</th>
+              <th>Niveau</th>
+              <th>Parcours</th>
+              <th>Mention</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+
+        </table>
+      </div>
+
+    </div>
+
+  </div>
+  <script src="/js/etudiant.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+#Update{
+  display: none;
+
+}
+.Logo{
+  float: left;
+  margin-right:20px;
+  color: #ffffff;
+  text-decoration: solid;
+
+}
+.header{
+  background-color: #3498DB;
+  height: 70px;
+  line-height: 70px;
+}
+.logo a{
+  float: left;
+  text-decoration: none;
+  margin-right:20px;
+  color: #ffffff;
+}
+.menu{
+  float: right;
+}
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right:20px;
+}
+.menu a:hover{
+  color: #2C3E50;
+}
+.user{
+  float: right;
+}
+
+.chart-canvas{
+  width: 5px;
+  height: 5px;
+}
+
+.charts{
+  max-width: 50px;
+  max-height: 20px;
+
+}
+

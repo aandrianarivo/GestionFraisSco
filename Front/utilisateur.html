@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+ 
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/demo.css">
+  <title>Utilisateur</title>
+</head>
+<body>
+  <div class="container-fluid header">
+    <div class="container">
+      <a href="#">Logo</a>
+      <nav class="menu">
+        <a href="index.html">Accueil</a>
+        <a href="etudiant.html">Etudiant</a>
+        <a href="enregistrement.html">Enregistrement</a>
+        <a href="utilisateur.html">Utilisateur</a>
+      </nav>
+      
+    </div>
+    <div class="container-fluid">
+      <div class="md-2">
+        <div class="flex-lg-row">
+          <div class="left">
+            <div class="form-group col-md-6 mb-3">
+              <label for="id">Id</label>
+              <input type="number" name="id" class="form-control" id="id" placeholder="Entrer ID" hidden>
+            </div>
+            <div class="form-group col-md-6 mb-3">
+              <label for="nom">Nom</label>
+              <input type="text" name="nom" class="form-control" id="nom" placeholder="Entrer nom">
+            </div>
+          </div>
+          <div class="right">
+            <div class="row mt-2 ">
+              <div class="col-6">
+                <table class="table table-borderless" id="crudTable">
+                  <thead>
+                    <tr>
+                      <th>Id</th>
+                      <th>Nom</th>
+                      <th>Prenom</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+        
+                  </tbody>
+        
+                </table>
+              </div>
+        
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
